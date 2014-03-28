@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h1>{{title}}</h1>
+        <p>
+            Please complete the following for the test. You will be working with another developer,
+            whom you can assume is not experienced with node.js nor single-page frameworks such as AngularJS.
+            Feel free to use any resources you'd like. The main goal of test is to see how well you'd work
+            with our team, so please communicate as much as possible with our developer.
+        </p>
+        <p>
+            There is a route (GET '/api/flights') that returns an array of recent flight by an aircraft.
+            Using your preferred single-page framework, develop an small frontend that will provide a list
+            of flights to the user. If the user selects one of these flights, it should display the flight
+            details in a separate section of the page. The details must include at least the flight time
+            and a google maps listing with waypoints in it.
+        </p>
+        <p>
+            The application is using an express boilerplate framework, so it's pretty bare. If you are unsure
+            of anything, feel free to ask any questions you'd like. You only have a little under an hour, so
+            do not worry if you are unable to complete everything in the list.
+        </p>
+
+        <p>
+            To Summarize:
+        </p>
+        <ol>
+            <li>
+                Add in your preferred javascript frameworks
+            </li>
+            <li>
+                Use /api/flights to get your data
+            </li>
+            <li>
+                Display a list of flights
+            </li>
+            <li>
+                Show the selected flight in a separate area with a google map path plot along with the flight time.
+            </li>
+        </ol>
+
+        <p>
+            If you have spare time, feel free to add extra features like the following:
+        </p>
+        <ol>
+            <li>
+                Style the application
+            </li>
+            <li>
+                Add a web socket connection that feeds fake aircraft location information
+                to the frontend and display the aircraft moving in realtime.
+            </li>
+            <li>
+                Add a form to update the vehicle configuration (name, type, maximum airspeed). Bonus
+                if the form is validated
+            </li>
+        </ol>
+    </body>
+</html>
